@@ -1,13 +1,16 @@
 :root {
     --main-text: #f9faf8;
     --secondary-text: #e5e7eb;
+    --information-text: #1F2937;
 
 }
+
 * {
     font-family: 'Roboto';
 }
-.color-blue {
-   background-color: #1f2937; 
+
+body, .color-blue {
+    background-color: #1f2937; 
 }
 
 nav {
@@ -102,4 +105,66 @@ button {
     padding: 80px 15px;
     color: var(--secondary-text);
     background-color: #6d747d;
+}
+
+.color-white {
+    background-color: #FFFF; 
+    padding-bottom: 50px;
+}
+
+.color-white h2 {
+    color: var(--information-text);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    padding-top: 50px;
+}
+
+.image-placeholder {
+    border: 4px solid #3882F6;
+    border-radius: 8px;
+    height: 100px;
+}
+
+.multiple-img {
+    /* border: 4px solid orange; */
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+}
+
+.multiple-img > div {
+    /* border: 4px solid purple; */
+    text-align: center;
+    width: 200px;
+}
+
+.multiple-img p {
+    /* border: 4px solid red; */
+}
+
+.color-gray {
+    background-color: var(--secondary-text); 
+    padding: 70px;
+}
+
+.quote-container {
+    /* border: 4px solid red; */
+    width: 800px;
+    position: relative;
+    left: 15%;
+}
+
+quote {
+    font-size: 36px;
+    font-weight: 250;
+    font-style: italic;
+    color: var(--information-text);
+}
+
+.color-gray p {
+    position: relative;
+    left: 68%;
+    font-weight: bold;
 }
