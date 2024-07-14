@@ -33,7 +33,7 @@ nav {
     gap: 2rem;
     justify-content: flex-end;
     align-items: end;
-    padding-right: 215px;
+    padding-right: 108px;
 }
 
 .header {
@@ -98,15 +98,17 @@ button {
 }
 
 .image-container {
+    display: flex;
+    justify-content: flex-end;
     width: 58%;
+    padding-right: 108px;
 }
 
 .image-container p {
     position: relative;
-    top: 117px;
+    top: 15%;
     width: 519px;
     height: 236px;
-    right: 49px;
     color: var(--secondary-text);
     background-color: #6d747d;
     text-align: center;
@@ -197,7 +199,7 @@ quote {
     width: 1024px;
     height: 150px;  
     position: relative;
-    left: 200px;
+    left: 30%;
     top: 57px;
 }
 
