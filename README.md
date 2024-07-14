@@ -1,5 +1,16 @@
-# This is the 'Project: Landing Page' from the Odin Project.
-The project instructions give me a image of a website that I will replicate.
-Font's and colors are also given.
-The information folder contians the website screnshot and font styles.
-I am following the tutorial assignments and using Git.
+# Project: Landing Page
+
+This project is part of [The Odin Project](https://www.theodinproject.com/) curriculum.
+
+## Overview
+
+The goal of this project is to replicate a provided website image using the specified fonts and colors.
+
+## Project Instructions
+
+- **Screenshot and Fonts**: The `information` folder contains the website screenshot and font styles.
+- **Tutorial**: This project follows the tutorial assignments from The Odin Project.
+- **Version Control**: Git is used to track changes and manage the project.
+
+## Resources
+- [The Odin Project](https://www.theodinproject.com/)
