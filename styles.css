@@ -102,18 +102,16 @@ button {
     justify-content: flex-end;
     width: 58%;
     padding-right: 108px;
+    align-items: center;
 }
 
 .image-container p {
-    position: relative;
-    top: 15%;
     width: 519px;
     height: 236px;
     color: var(--secondary-text);
     background-color: #6d747d;
     text-align: center;
     line-height: 236px;
-    font-size: 18px;
 }
 
 .color-white {
@@ -179,59 +177,61 @@ quote {
     width: 790px;
 }
 
-.color-gray p {
-    position: relative;
-    left: 65%;
-    top: -150px;
+quote p {
+    /* border: 4px solid red; */
     width: 200px;
     font-weight: bold;
     font-size: 18px;
+    text-align: right;
+    margin-left: 550px;
 }
 
 .white-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-top: 115px;
-    padding-bottom: 115px;
+    padding-bottom: 40px;
 }
 
 .blue-border {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: var(--button-color);
     border-radius: 5px;
     width: 1024px;
-    height: 150px;  
-    position: relative;
-    left: 30%;
-    top: 57px;
+    height: 150px;
+    padding: 20px;
+    text-align: center;
 }
 
 .blue-border h3 {
     color: var(--main-text);
     font-size: 27px;
-    padding-left: 121px;
-    padding-top: 52px;
-    width: 300px;
+    padding-top: 20px;
+    
 }
 
 .blue-border p {
     color: var(--main-text);
     font-size: 18px;
     font-weight: 300;
-    padding-left: 121px;
-    width: 487px;
-    
+    margin-top: 10px;
+    padding-bottom: 25px;
 }
 
 .blue-border button {
     color: var(--main-text);
     border: 2px solid var(--main-text);
-    position: relative;
     font-size: 18px;
     width: 135px;
     height: 40px;
     border-radius: 8px;
     font-weight: 500;
-    text-align: center;
-    left: 76%;
-    top: -28%;
+    align-self: center;
+
 }
 
 .copyright-container {
